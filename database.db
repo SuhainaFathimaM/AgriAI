@@ -1,0 +1,26 @@
+CREATE TABLE MarketData (
+    Market_ID INTEGER PRIMARY KEY,
+    Product TEXT,
+    Market_Price_per_ton REAL,
+    Demand_Index REAL,
+    Supply_Index REAL,
+    Competitor_Price_per_ton REAL,
+    Economic_Indicator REAL,
+    Weather_Impact_Score REAL,
+    Seasonal_Factor TEXT,
+    Consumer_Trend_Index REAL
+);
+
+CREATE TABLE FarmData (
+    Farm_ID INTEGER PRIMARY KEY,
+    Soil_pH REAL,
+    Soil_Moisture REAL,
+    Temperature_C REAL,
+    Rainfall_mm REAL,
+    Crop_Type TEXT,
+    Fertilizer_Usage_kg REAL,
+    Pesticide_Usage_kg REAL,
+    Crop_Yield_ton REAL,
+    Sustainability_Score REAL
+);
+
